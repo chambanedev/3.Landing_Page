@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product landing page</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="company_logo">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li> 
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#video">How it works</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="mb-3">
+                <h2>Handcrafted, home-made masterpieces</h2>
+                <label for="email" class="form-label"></label>
+                <input type="email" 
+                class="form-control" 
+                name="email" 
+                id="email"
+                target="_blank"
+                placeholder="Enter your email address"
+                required>
+            </div>
+            <div>
+                <input type="submit" 
+                id="submit" 
+                class="form-control" 
+                value="GET STARTED">
+            </div>
+        </form>
+        <article  id="features">
+            <div class="cardFeat">
+                <div class="cardPerso">
+                    <span>
+                        <i class="fas fa-fire fa-3x"></i>
+                    </span>
+                    <div class="cardbodyPerso">
+                        <h2>
+                            Premium Materials
+                        </h2>
+                        <p>
+                            Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                        </p>
+                    </div>
+                </div>
+                <div class="cardPerso">
+                    <span>
+                        <i class="fas fa-dolly fa-3x"></i>
+                    </span>
+                    <div class="cardbodyPerso">
+                        <h2>
+                            Fast Shipping
+                        </h2>
+                        <p>
+                            We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="cardPerso">
+                    <span>
+                        <i class="fas fa-battery-full fa-3x"></i>
+                    </span>
+                    <div class="cardbodyPerso">
+                        <h2>
+                            Quality Assurance
+                        </h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="videobox">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/COAAvcpocU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </article>
+        <article id="pricing">
+            <div class="cardPricing">
+                <h2>TENOR TROMBONE</h2>
+                <h3>$600</h3>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button type="button" class="btn btn-outline-warning">SELECT</button>
+            </div>
+            <div class="cardPricing">
+                <h2>BASS TROMBONE</h2>
+                <h3>$900</h3>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button type="button" class="btn btn-outline-warning">SELECT</button>
+            </div>
+            <div class="cardPricing">
+                <h2>VALVE TROMBONE</h2>
+                <h3>$1200</h3>
+                <ul>
+                    <li>Plays similar to a Trumpet</li>
+                    <li>Great for Jazz Bands</li>
+                    <li>Lorem ipsum dolor</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button type="button" class="btn btn-outline-warning">SELECT</button>
+            </div>
+        </article>
+    </main>
+    <footer></footer>
+    <!--Script test-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

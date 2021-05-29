@@ -1,0 +1,136 @@
+body {
+    background: #a5a3a3;
+}
+/**HEADER**/
+header {
+    position: fixed;
+    top: 0;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.5em;
+    background: #eeeeee;
+}
+header div img {
+    width: 35%;
+}
+header nav {
+    width: 50%;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+header nav ul li a{
+    color: #000 !important;
+}
+/**MAIN**/
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    width: 72%;
+}
+/**FORM**/
+form {
+    width: 400px;
+    margin: auto;
+}
+form h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+}
+form input[type=email] {
+    width: 300px;
+    margin: auto;
+}
+form input[type=submit] {
+    width: 150px;
+    margin: auto;
+    font-weight: 900;
+    background-color: orange;
+}
+form input[type=submit]:hover{
+    background-color: coral;
+}
+/**Article Features**/
+#features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+}
+article .cardFeat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+article .cardPerso {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4em;
+}
+article span {
+    width: 6em;
+    position: relative;
+}
+article span i {
+    position: absolute;
+    bottom: 1px;
+}
+.cardbodyPerso h2 {
+    font-size: 1.6em;
+    margin: 0;
+}
+.cardbodyPerso p {
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+article .videobox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+/**ARTICLE PRICING*/
+#pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cardPricing {
+    border: 1px solid black;
+    border-radius: 0.2em;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.cardPricing h2 {
+    background: chartreuse;
+    font-size: 1.1em;
+    padding: 1em;
+    background-color: #dddddd;
+}
+.cardPricing h3 {
+    padding: 0.5em;
+    font-size: 1.6em;
+}
+.cardPricing ul {
+    padding-bottom: 1.5em;
+}
+.cardPricing li {
+    list-style-type: none;
+    padding: 0.1em;
+    font-size: 1.05em;
+    font-weight: 400;
+}
+.cardPricing button {
+    padding: 1em;
+}
+
+
+
